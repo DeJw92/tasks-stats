@@ -1,6 +1,6 @@
-import {AppComponent} from './test-component'
 import {bootstrap} from 'angular2/platform/browser'
+import {MainPageComponent} from "./main-page-component";
 
-bootstrap(AppComponent);
+bootstrap(<any>MainPageComponent);
 
 
