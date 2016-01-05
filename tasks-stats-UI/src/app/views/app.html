@@ -7,20 +7,21 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Tasks stats</a>
+            <a class="navbar-brand" [routerLink]="['HomePage']">Tasks stats</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="#">About</a>
+                    <a [routerLink]="['Tasks']">Tasks</a>
                 </li>
                 <li>
-                    <a href="#">Services</a>
+                    <a [routerLink]="['Helpers']">Helpers</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a [routerLink]="['Algorithms']">Algorithms</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+<router-outlet></router-outlet>
