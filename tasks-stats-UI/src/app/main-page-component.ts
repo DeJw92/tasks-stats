@@ -1,7 +1,9 @@
 import {Component} from "angular2/core";
+import {NavbarComponent} from './navbar-component'
 @Component({
     selector: 'main-page',
-    template: '<h1>Main Page </h1>'
+    templateUrl: '/app/views/main-page.html',
+    directives: [<any>NavbarComponent]
 })
 export class MainPageComponent {
 
